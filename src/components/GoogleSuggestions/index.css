@@ -1,0 +1,49 @@
+/* Write your CSS here */
+/*Google Suggestion Block*/
+.container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inner {
+  width: 50vw;
+}
+.logo {
+  height: 26vh;
+  width: 80%;
+}
+/*Search Input Values Page */
+.searchPage {
+  box-shadow: 2px 4px 16px 0px #bfbfbf;
+  border: solid 0px;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.inputDisplay {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.search {
+  height: 30px;
+}
+.input {
+  width: 100%;
+  border-radius: 3px;
+  border: solid 0px transparent;
+  height: 30px;
+  font-size: 20px;
+}
+input:active {
+  border: 0px solid transparent;
+}
+/* UnOrder List Items*/
+ul {
+  list-style-type: none;
+  text-align: left;
+}
